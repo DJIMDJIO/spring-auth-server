@@ -1,13 +1,13 @@
-package com.example.authServer;
+package com.example.authClient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AuthServerApplication {
+public class AuthClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AuthServerApplication.class, args);
+		SpringApplication.run(AuthClientApplication.class, args);
 	}
 
 }
